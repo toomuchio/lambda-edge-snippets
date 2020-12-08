@@ -1,3 +1,6 @@
+//Event hook: Origin request
+//Very hardened security headers change as needed
+
 'use strict';
 exports.handler = (event, context, callback) => {
     const response = event.Records[0].cf.response;
