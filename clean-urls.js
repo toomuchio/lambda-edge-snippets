@@ -6,7 +6,7 @@
 
 const INDEX_APPEND = "index.html"
 const RE_NOEXT = /\/[^/.]+$/;
-const EXT_APPEND = ".html"
+const EXT_APPEND = ".html";
 
 exports.handler = function handler(event, context, callback) {
 	const request = event.Records[0].cf.request;
