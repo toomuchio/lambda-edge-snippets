@@ -1,4 +1,4 @@
-//Event hook: Origin request
+//Event hook: Viewer response
 //Very hardened security headers change as needed
 
 'use strict';
